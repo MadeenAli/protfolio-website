@@ -1,0 +1,332 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2e2e2e;
+    color: #fff;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 700;
+  }
+  
+  /* total width */
+  ::-webkit-scrollbar {
+    background-color: #fff;
+    width: 16px;
+  }
+  
+  /* background of the scrollbar except button or resizer */
+  ::-webkit-scrollbar-track {
+    background-color: #fff;
+  }
+  
+  ::-webkit-scrollbar-track:hover {
+    background-color: #f4f4f4;
+  }
+  /* scrollbar itself */
+  ::-webkit-scrollbar-thumb {
+    background-color: #babac0;
+    border-radius: 16px;
+    border: 5px solid #fff;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    background-color: #a0a0a5;
+    border: 4px solid #f4f4f4;
+  }
+  /* set button(top and bottom of the scrollbar) */
+  ::-webkit-scrollbar-button {
+    display: none;
+  }
+  a {
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: #2e2e2e;
+  }
+/*header starts */
+header .navbar-brand img {
+    width: 50px;
+    border-radius: 50%;
+    height: 45px;
+}
+header .navbar-nav .nav-item a:hover{
+  text-decoration: underline;
+  color: #fff;
+}
+header .navbar-nav .nav-item {
+  color: #a0a0a5;
+}
+header .navbar-nav .nav-item .btn-theme {
+   border: solid 1px #fff;
+    padding: 5px 7px 4px 4px;
+    background-color: #fff;
+    color: #151515;
+}
+/*header ends */
+/*banner start */
+.banner-sec {
+  background-image: url(/assets/image/banner-bg.avif);
+}
+.banner-sec .img-box img {
+    width: 287px;
+    margin-left: 352%;
+    height: 55vh;
+    margin-top: 49px;
+}
+.font-50 {
+  font-size: 50px;
+}
+.banner-sec .text-box h2 {
+  margin-left: -287px;
+    margin-top: 30px;
+}
+.banner-sec .text-box p {
+  margin-left: -48%;
+}
+/*banner ends */
+/*projects start*/
+.project-sec .slider img {
+    width: 230px;
+    border-radius: 26%;
+}
+.slider-item {
+  max-width: 100%;
+  padding: 50px 0;
+  cursor: pointer;
+}
+.slider-item .img-box {
+  height: 440px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+.slider-item .img-box img {
+  width: 427px;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+  border-radius: 12px;
+  height: 100px;
+}
+.slider-item .img-box-1 img {
+  width: 93%;
+  height: 31%;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+  border-radius: 12px;
+}
+.slider-item .img-box-2 img {
+  width: 44%;
+  height: 56%;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+  border-radius: 12px;
+}
+.slider-item .img-box-3 img {
+  width: 49%;
+  height: 47%;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+  border-radius: 12px;
+}
+.slider-item .text-box {
+  margin-top: 20px;
+}
+.slider-item .text-box-4 {
+  margin-top: -256px;
+}
+/*projects ends */
+/*About start*/
+.about-sec .slider img {
+  width: 230px;
+    border-radius: 26%;
+}
+.font-30 {
+  font-size: 30px;
+}
+.slider-item {
+  max-width: 100%;
+  padding: 50px 0;
+}
+.slider-item .img-box {
+  height: 440px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+.slider-item .img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+  border-radius: 12px;
+}
+/*ABOUT END*/
+/*contact start*/
+.text-centre {
+  text-align: center;
+}
+.font-60 {
+  font-size: 60px;
+}
+/*contact end*/
+/*Responsive start*/
+@media screen and (max-width: 1199px) {
+  .banner-sec h1 {
+    font-size: 50px;
+  }
+  .banner-sec .text-box h2 {
+    font-size: 50px;
+  }
+  .banner-sec .text-box p {
+    width: 61%;
+  }
+  .banner-sec .img-box {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner-sec .img-box img {
+    width: 100%;
+    height: 90vh;
+    margin-left: 464%;
+  }
+  .project-sec h2 {
+    font-size: 40px;
+  }
+  .copy-right-sec P {
+    font-size: 14px;
+  }
+  /* about section start*/
+  .about-sec .text-box h2 {
+    font-size: 40px;
+  }
+  .about-sec .text-box p {
+    font-size: 14px;
+  }
+  /*about section ends*/
+  /*contact start */
+  .contect-sec h2 {
+    font-size: 50px;
+  }
+  /*contect ends*/
+  }
+  @media screen and (max-width: 991px) {
+    header .navbar-toggler-icon {
+      color: #1f1f1f;
+    background-color: #fff;
+  }
+  header .navbar-brand {
+    height: 13vh
+  }
+  .banner-sec h1 {
+    font-size: 40px;
+  }
+  .banner-sec p {
+    font-size: 18px;
+  }
+  .banner-sec .text-box {
+    width: 68%;
+  }
+  .banner-sec .text-box h2 {
+    font-size: 40px;
+    margin: 5px;
+  }
+  /*about start */
+  .about-sec .img-box {
+    width: 50%;
+    margin-left: 20px;
+  }
+  .about-sec .img-box img {
+    width: 216px;
+    margin-left: 20px 
+  }
+  /*about ends */
+  /*contact start */
+  .contect-sec h2 {
+    font-size: 40px;
+  }
+  /*contect ends*/
+  }
+  @media screen and (max-width: 767px) {
+    .banner-sec p {
+      font-size: 14px;
+    }
+    .banner-sec h1 {
+      font-size: 30px;
+    }
+    .banner-sec h2 {
+      font-size: 35px;
+    margin-left: -160px;
+    margin-bottom: 21px;
+   }
+   .banner-sec .img-box {
+    margin-top: 29px;
+   }
+   .banner-sec .img-box img {
+    height: 68vh;
+   }
+   .copy-right-sec p {
+    font-size: 10px;
+   }
+   /*about-start*/
+   .about-sec .text-box {
+    margin-top: 25px;
+   }
+   .about-sec .text-box h2 {
+    font-size: 40px;
+   }
+   .about-sec .img-box img {
+    width: 232px;
+    margin-left: 20px;
+    height: 100vh;
+    margin-top: 58px;
+   }
+   .about-sec .img-box {
+    width: 50%;
+    margin-left: 20px;
+  }
+  /*about ends*/
+  /*contact start */
+  .contect-sec h2 {
+    font-size: 30px;
+  }
+  /*contect ends*/
+   }
+    @media screen and (max-width: 575px) {
+      .banner-sec .text-box h2 {
+        font-size: 30px;
+       margin-left: 10px;
+       margin-bottom: 21px
+      }
+      .banner-sec .img-box {
+        width: 0px;
+      }
+      .project-sec h2 {
+        font-size: 30px;
+        margin-left: 11px 
+      }
+      /*contact start */
+  .contect-sec h2 {
+    font-size: 25px;
+  }
+  /*contect ends*/
+    }
+/*Responsive end*/

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corben&family=Fira+Sans:ital,wght@0,100;0,200;1,100;1,200&family=Noto+Sans:ital,wght@0,300;0,400;1,100;1,500&family=PT+Serif:ital,wght@0,400;0,700;1,700&family=Poppins:wght@400;500&family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/slick/slick/slick.css">
+    <link rel="stylesheet" href="assets/slick/slick/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Madeen Ali</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg">
+                        <a class="navbar-brand" href="#"><img src="assets/image/logo.png.png" alt="logo" /></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                            <ul class="navbar-nav ms-auto mb-2 mt-lg-0">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link btn-theme btn-black" href="#">Resume</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main role="main-content">
+        <section class="about-sec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex align-item-centre">
+                        <div class="text-box">
+                            <h2 class="font-50 text-centre mt-3">About Me</h2>
+                            <p class="font-24 mt-3">Hello, I'm Madeen Ali, a passionate Frontend Web Developer based in
+                                Karachi. I completed my
+                                Intermediate in Commerce from Govt. Islamia Arts and Commerce College.</p>
+                            <p class="font-24 mt-3">With 6 months of experience in freelancing, I have had the
+                                opportunity
+                                to work on diverse
+                                projects, honing my skills in creating engaging and responsive web applications. I
+                                strive to
+                                blend creativity with functionality to deliver seamless user experiences.</p>
+                            <p class="font-24 mt-3">Feel free to explore my portfolio to see some of the exciting
+                                projects
+                                I've been a part of.
+                                I'm always eager to take on new challenges and contribute to the ever-evolving world of
+                                web
+                                development.</p>
+                        </div>
+                        <div class="img-box">
+                            <img src="assets/image/about.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="slider-sec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="about-slider">
+                            <div class="slider-item">
+                                <div class="img-box">
+                                    <img src="assets/image/about.png" alt="" />
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="img-box">
+                                    <img src="assets/image/slider-img-1.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="img-box">
+                                    <img src="assets/image/slider-img-2.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="img-box">
+                                    <img src="assets/image/slider-img-3.jpg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="social-icons">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-flex align-item-centre justify-content-between mt-2">
+                            <a href="https://github.com/MadeenAli"><i class="fa-brands fa-github font-30"></i></a>
+                            <a href="#"><i class="fa-brands fa-bitbucket font-30"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-content">
+                        <div class="copy-right-sec">
+                            <p class="font-18">@ 2024 All right are reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/slick/slick/slick.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script>
+    $('.about-slider').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+    });
+</script>
+
+</html>
